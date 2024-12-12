@@ -4,6 +4,7 @@ import { ErrorBoundary } from 'react-error-boundary';
 import NavBar from "./components/navBar";
 import FetchImage from './components/fetchImage';
 import UploadImages from './components/uploadImages';
+import DataBase from './dataBase';
 // import Card from './components/card';
 
 const ErrorFallback = ({ error }: { error: Error }) => {
@@ -22,6 +23,7 @@ const App = () => {
         <NavBar />
         <UploadImages />
         <FetchImage />
+        <DataBase />
 
 
       </div>
